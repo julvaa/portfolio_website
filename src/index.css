@@ -22,7 +22,7 @@ section{
   left: 0;
   width: 100%;
   /* background: rgb(131, 137, 155); */
-  background: rgb(75, 75, 90);
+  background: rgb(49, 49, 63);
   display: flex;  
   align-items: center;
   z-index: 100;
@@ -83,6 +83,7 @@ span{
   font-size: 5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: rgb(212, 217, 236);
 }
 
 .profile_picture img{

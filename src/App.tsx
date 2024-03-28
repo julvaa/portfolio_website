@@ -33,8 +33,8 @@ function App() {
   <div className="home_section">
     <h3>Hello, my name is </h3>
     <h1> Julia</h1>
-    <h3>I am a <span>Telecommunication student</span></h3>
-    <p>Get to know me better and take a look at some of my projects. &#128187;</p>
+    <h3>I am a Telecommunication student</h3>
+    <p>Get to know me better and take a look at some of my projects. <a href="#projects"> &#128187;</a></p>
   </div>
   <div className="profile_picture">
   <img src={p2} />
@@ -87,7 +87,7 @@ function App() {
     <img src={proj1} />
     <div className="project_description">
     <h4>Snake</h4>
-    <p>Snake game using C++ and SFML with snake controlled by user, food collection for growth and collision detecion.</p>
+    <p>Snake game using C++ and SFML with snake controlled by user, food collection for growth and collision detecion</p>
     <a href="https://github.com/julvaa/Snake" target="_blank" >See source code</a>
     </div>
     </div>
@@ -96,7 +96,7 @@ function App() {
     <img src={proj1} />
     <div className="project_description">
     <h4>Pacman</h4>
-    <p>Pacman game using C++ and SFML allows user to control pacman collecting dots on map. User loses lives from collision with ghosts. </p>
+    <p>Pacman game using C++ and SFML allows user to control pacman collecting dots on map. User loses lives from collision with ghosts </p>
     <a href="https://github.com/julvaa/Pacman" target="_blank" >See source code</a>
     </div>
     </div>
@@ -105,7 +105,7 @@ function App() {
     <img src={proj1} />
     <div className="project_description">
     <h4>Saper</h4>
-    <p>Minesweeper game using C++ and SFML allows user to uncover squares on board with flags around mines. Game ends when user uncovers mine. </p>
+    <p>Minesweeper game using C++ and SFML allows user to uncover squares on board with flags around mines. Game ends when user uncovers mine </p>
     <a href="https://github.com/julvaa/saper" target="_blank" >See source code</a>
     </div>
     </div>
