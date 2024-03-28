@@ -60,7 +60,7 @@ function App() {
   <div className="skills_cards">
   <img src={card} />
   <h3>Coding</h3>
-  <p>I am familiar with programming languages like JavaScript, TypeScript, Bash and C++</p>
+  <p>I am familiar with programming languages like JavaScript, TypeScript and C++</p>
   </div>
   
   <div className="skills_cards">
@@ -79,7 +79,7 @@ function App() {
 </section>
 
 <section className="projects" id="projects">
-  <h2 className="head">My<span>projects</span></h2>
+  <h2 className="head">My <span>projects</span></h2>
 
   <div className="projects_section">
 
@@ -87,7 +87,7 @@ function App() {
     <img src={proj1} />
     <div className="project_description">
     <h4>Snake</h4>
-    <p>Uni project made in C++</p>
+    <p>Snake game using C++ and SFML with snake controlled by user, food collection for growth and collision detecion.</p>
     <a href="https://github.com/julvaa/Snake" target="_blank" >See source code</a>
     </div>
     </div>
@@ -96,7 +96,7 @@ function App() {
     <img src={proj1} />
     <div className="project_description">
     <h4>Pacman</h4>
-    <p>Uni project made in C++</p>
+    <p>Pacman game using C++ and SFML allows user to control pacman collecting dots on map. User loses lives from collision with ghosts. </p>
     <a href="https://github.com/julvaa/Pacman" target="_blank" >See source code</a>
     </div>
     </div>
@@ -105,7 +105,7 @@ function App() {
     <img src={proj1} />
     <div className="project_description">
     <h4>Saper</h4>
-    <p>Uni project made in C++</p>
+    <p>Minesweeper game using C++ and SFML allows user to uncover squares on board with flags around mines. Game ends when user uncovers mine. </p>
     <a href="https://github.com/julvaa/saper" target="_blank" >See source code</a>
     </div>
     </div>
@@ -114,7 +114,7 @@ function App() {
     <img src={proj1} />
     <div className="project_description">
     <h4>Counter</h4>
-    <p>JavaScript project</p>
+    <p>Simple JavaScript project allows to add, subtract and reset numbers </p>
     <a href="https://github.com/julvaa/Counter" target="_blank" >See source code</a>
     </div>
     </div>
@@ -123,7 +123,7 @@ function App() {
     <img src={proj1} />
     <div className="project_description">
     <h4>Random number generator</h4>
-    <p>JavaScript project</p>
+    <p>Simple JavaScript project allows to generate random numbers</p>
     <a href="https://github.com/julvaa/Random_number_generator" target="_blank" >See source code</a>
     </div>
     </div>

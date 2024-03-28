@@ -35,6 +35,7 @@ section{
   text-decoration: none;
   color: rgb(214, 216, 230);
   font-weight: 700;
+  margin-left: 2rem;
   
   
 }
@@ -43,7 +44,8 @@ section{
   font-size: 1.5rem;
   text-decoration: none;
   color: rgb(234, 235, 247);
-  margin-left: 4rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
   
     
  }
