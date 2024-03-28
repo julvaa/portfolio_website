@@ -31,10 +31,9 @@ function App() {
 
 <section className="home" id="home">
   <div className="home_section">
-    <h3>Hello, my name is </h3>
-    <h1> Julia</h1>
+    <h3>Hello, my name is </h3> <h1> Julia</h1>
     <h3>I am a Telecommunication student</h3>
-    <p>Get to know me better and take a look at some of my projects. <a href="#projects"> &#128187;</a></p>
+    <p>Get to know me better and take a look at some of my projects <a href="#projects"> &#128187;</a></p>
   </div>
   <div className="profile_picture">
   <img src={p2} />
@@ -49,7 +48,7 @@ function App() {
 
 <div className="about_me_section">
   <h2 className="head">About <span>Me</span></h2>
-  <p>I am a creative and open-minded person with a passion for technology. Looking for oportunity to use my skills in practice. </p>
+  <p>I am a creative and open-minded person with a passion for technology. Looking for oportunity to use my skills in practice </p>
 </div>
 </section>
 
@@ -66,13 +65,13 @@ function App() {
   <div className="skills_cards">
   <img src={card2} />
   <h3>UI Design</h3>
-  <p>I am able to use tools like CSS or Figma to create user pleasing web interfaces. </p>
+  <p>I am able to use tools like CSS or Figma to create user pleasing web interfaces </p>
   </div>
 
   <div className="skills_cards">
   <img src={card1} />
   <h3>Linux and Scripting</h3>
-  <p>I have an understanding of file handling, system administration and Bash scripting.</p>
+  <p>I have an understanding of file handling, system administration and Bash scripting </p>
   </div>
 
 </div>
